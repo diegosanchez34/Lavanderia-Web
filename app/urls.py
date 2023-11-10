@@ -7,4 +7,5 @@ from app import views
 
 urlpatterns = [
     path('', home, name='home'),
+    path('correo/', correo, name='correo'),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
