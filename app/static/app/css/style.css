@@ -1162,12 +1162,12 @@
         padding: 0 0 30px 0;
         color: #212529;
         font-size: 14px;
-        background: #fef8f5;
+        background: #f0faff;
     }
     
     #footer .footer-newsletter {
         padding: 50px 0;
-        background: #fef8f5;
+        background: #f0faff;
         text-align: center;
         font-size: 15px;
     }
@@ -1178,7 +1178,7 @@
         padding: 0;
         line-height: 1;
         font-weight: 600;
-        color: #4e4039;
+        color: rgb(42, 63, 75);
     }
     
     #footer .footer-newsletter form {
@@ -1206,7 +1206,7 @@
         background: none;
         font-size: 16px;
         padding: 0 20px;
-        background: #eb5d1e;
+        background: #0076ad;
         color: #fff;
         transition: 0.3s;
         border-radius: 4px;
@@ -1214,7 +1214,7 @@
     }
     
     #footer .footer-newsletter form input[type=submit]:hover {
-        background: #c54811;
+        background: #0076ad;
     }
     
     #footer .footer-top {
@@ -1239,7 +1239,7 @@
         line-height: 24px;
         margin-bottom: 0;
         font-family: "Raleway", sans-serif;
-        color: #5c5c5c;
+        color: rgb(75, 75, 75);
     }
     
     #footer .footer-top h4 {
@@ -1262,7 +1262,7 @@
     
     #footer .footer-top .footer-links ul i {
         padding-right: 2px;
-        color: #f39e7a;
+        color: #0076ad;
         font-size: 18px;
         line-height: 1;
     }
@@ -1286,13 +1286,13 @@
     
     #footer .footer-top .footer-links ul a:hover {
         text-decoration: none;
-        color: #eb5d1e;
+        color: #0076ad;
     }
     
     #footer .footer-top .social-links a {
         font-size: 18px;
         display: inline-block;
-        background: #eb5d1e;
+        background: #0076ad;
         color: #fff;
         line-height: 1;
         padding: 8px 0;
@@ -1305,7 +1305,7 @@
     }
     
     #footer .footer-top .social-links a:hover {
-        background: #ef7f4d;
+        background: #73b7d6;
         color: #fff;
         text-decoration: none;
     }
@@ -1323,7 +1323,7 @@
     }
     
     #footer .credits a {
-        color: #eb5d1e;
+        color: #0076ad;
     }
     
     @media (max-width: 575px) {

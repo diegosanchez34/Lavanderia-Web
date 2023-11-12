@@ -1,3 +1,0 @@
-azul oscuro: rgb(42, 63, 75)
-gris letras: rgb(92, 92, 92)
-fondo azul: f0faff
