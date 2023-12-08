@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Lavanderia De La Cruz</title>
+    <title>De La Cruz Lavanderia </title>
     <meta content="Lavandería De La Cruz es una empresa de Puerto Montt que ofrece servicios de lavado de ropa industrial, confección y reparación de ropa de trabajo." name="description">
     <meta content="Lavandería Industrial Puerto Montt Moderna" name="keywords">
 
@@ -40,7 +40,8 @@
         <div class="container d-flex align-items-center justify-content-between">
 
         <div class="logo">
-            <h1 class="text-light"><a href="index.html"><span>Lavanderia De La Cruz</span></a></h1>
+            
+            <h1 class="text-light"><a href="#hero"><img src="{% static 'app/img/logo.png' %}"></a><a href="#hero"><span>   De La Cruz Lavanderia</span></a></h1>
         </div>
 
         <nav id="navbar" class="navbar">
@@ -139,7 +140,7 @@
                 <div class="icon-box">
                 <div class="icon"><img src="{% static 'app/img/iconos/confeccion.png' %}"></div>
                 <h4 class="title"><a href="">Confección</a></h4>
-                <p class="description">Nuestra ropa está confeccionada con materiales de alta calidad, que son resistentes y evitar la exposición a contaminantes.</p>
+                <p class="description">Nuestra ropa está confeccionada con materiales de alta calidad, que protejen de la exposición a contaminantes externos.</p>
                 </div>
             </div>
 
@@ -147,7 +148,7 @@
                 <div class="icon-box">
                 <div class="icon"><img src="{% static 'app/img/iconos/arriendo.png' %}"></div>
                 <h4 class="title"><a href="">Arriendo de ropa</a></h4>
-                <p class="description">Disponemos una gran variedad de tallas, para que los empleados puedan encontrar la ropa que les quede cómoda y segura.</p>
+                <p class="description">Disponemos de una gran variedad de tallas, para que los empleados utilizen ropa que les quede cómoda y les sea segura.</p>
                 </div>
             </div>
 
@@ -158,16 +159,78 @@
 
             
         <!-- ======= Portfolio Section ======= -->
-        <section id="portfolio" class="portfolio">
+        <section id="portfolio" class="portfolio features">
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-            <h2>Instalaciones</h2>
-            <p>Echa un vistazo a nuestras instalaciones</p>
+                <h2>Instalaciones</h2>
+                <p>Echa un vistazo a nuestras instalaciones</p>
             </div>
 
+            <div class="row" data-aos="fade-up">
+            <div class="col-md-5">
+                <img src="{% static 'app/img/instalaciones/2.jpeg' %}" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-7 pt-4">
+                <h3>Contamos con una capacidad instalada de <b>7.000</b> prendas al día.</h3>
+                <p class="texto">
+                    De la Cruz Lavandería cuenta con una instalación e infraestructura de unos 250 mt<sup>2</sup> que cumple con los requisitos de bioseguridad.
+                </p>
+                <P class="texto">
+                    Trabajamos delantales, pecheras, slack, guantes, chalecos reflectantes, pantalones, ropa de agua, ropa térmica, overoles, ropa indumentaria en general del rubro salmonero.
+                </P>
+            </div>
+            </div>
 
-        </div>
+            <div class="row" data-aos="fade-up">
+            <div class="col-md-5 order-1 order-md-2">
+                <img src="{% static 'app/img/instalaciones/3.jpg' %}" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-7 pt-5 order-2 order-md-1">
+                <h3>Contamos con 6 Lavadoras de las marcas Maytag, Imesa, Sealion.</h3>
+                <p class="texto">
+                    Nuestras Lavadoras cuentan con sistema de inyección de productos químicos el cual se encuentra automatizado y respaldo por proveedor certificado. 
+                </p>
+                <p class="texto">
+                    Contamos con 7 Secadoras de las marcas Maytag e Imesa. Las secadoras tienen programas de secado dependiendo del tipo de prenda el que varía de los 30º a 90º.
+                </p>
+            </div>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-5">
+                    <img src="{% static 'app/img/instalaciones/image5.jpg' %}" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 pt-4">
+                    <h3>Para el área de Confecciones contamos con 7 Maquinas Industriales, como son: Overlock, Recta, Colloretera y bordadora. </h3>
+                    <p class="texto">
+                        Confeccionamos: Delantales, Chalecos Reflectantes, Overoles, Ropa térmica, Ropa impermeable, Cotonas, Pasamontañas, Mascarillas, Ropa de Polar, Cintillos, Slack, Indumentaria en general del rubro Salmonero.
+                    </p>
+                </div>
+                </div>
+                <!-- 
+                <div class="row" data-aos="fade-up">
+                    <div class="col-md-5 order-1 order-md-2">
+                        <img src="{% static 'app/img/instalaciones/3.jpg' %}" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-md-7 pt-5 order-2 order-md-1">
+                        <h3>Equipos de Soporte.</h3>
+                        <p class="texto">
+                            Contamos con un generador de respaldo  el cual nos da Soporte en caso de corte eléctrico, Podemos seguir operando sin afectar nuestros compromisos de entregas potencia prime: 20 KVA.
+                        </p>
+                        <p class="texto">
+                            En caso de corte , contamos con un acopio de respaldo 3,000 litros de Agua de recirculación.
+                        </p>
+                        <p class="texto">
+                            El gas con el que actualmente cuenta la instalación llega a través de cañerías controlado por medidor, y en caso de corte habilitamos 2 galones de 50 kilos, el que nos da una autonomía de 8 horas continuas de proceso. 
+                        </p>
+                        <p class="texto">
+                            Back up para el reemplazo de ropa en caso de que surjan alguna situación inesperada tanto de parte del cliente como del servicio de lavandería.
+                        </p>
+                    </div>
+                    </div>
+
+        </div> -->
         </section><!-- End Portfolio Section -->
 
         <!-- ======= F.A.Q Section ======= -->
@@ -227,7 +290,7 @@
     
                 <div class="section-title" data-aos="fade-up">
                 <h2>Equipo</h2>
-                <p>Nuestro equipo siempre está aquí para ayudar.</p>
+                <p>Nuestro equipo siempre está aquí para ayudar</p>
                 </div>
     
                 <div class="row">

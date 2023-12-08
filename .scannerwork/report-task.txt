@@ -1,0 +1,6 @@
+projectKey=Lavanderia
+serverUrl=http://localhost:9000
+serverVersion=10.2.1.78527
+dashboardUrl=http://localhost:9000/dashboard?id=Lavanderia
+ceTaskId=AYvUIsKuf9NeYOU16EZO
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYvUIsKuf9NeYOU16EZO
