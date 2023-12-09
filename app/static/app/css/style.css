@@ -42,7 +42,7 @@
         right: 15px;
         bottom: 15px;
         z-index: 99999;
-        background: #eb5d1e;
+        background: #0076ad;
         width: 40px;
         height: 40px;
         border-radius: 4px;
@@ -56,7 +56,7 @@
     }
     
     .back-to-top:hover {
-        background: #ee7843;
+        background: #10a9f0;
         color: #fff;
     }
     
