@@ -13,12 +13,12 @@
     }
     
     a {
-        color: #eb5d1e;
+        color: #0076ad;
         text-decoration: none;
     }
     
     a:hover {
-        color: #ef7f4d;
+        color: #10a9f0;
         text-decoration: none;
     }
     
@@ -1314,4 +1314,14 @@
   .texto {
     padding-top: 15px;
     font-size: 18px;
+  }
+
+  .centrar {
+    text-align: center;
+  }
+  
+  .centrar img {
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
   }

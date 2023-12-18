@@ -2,5 +2,6 @@ azul oscuro titulos: rgb(42, 63, 75)
 gris letras: rgb(75, 75, 75)
 fondo azul: f0faff
 azul iconos: 0076ad
+azul claro: 10a9f0
 azul oscuro resaltado: 004f74
 naranjo: ff8a21
